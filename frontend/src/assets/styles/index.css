@@ -1,0 +1,21 @@
+body,
+html {
+  height: 100%; /* Ensure full viewport height */
+  margin: 0; /* Reset margin */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Take up full height of viewport */
+}
+
+#content {
+  flex: 1; /* Flex-grow. Ensures the content fills up all available space, pushing the footer down */
+}
+
+main {
+  min-height: 80vh;
+  width: 100%;
+  margin: auto;
+}
